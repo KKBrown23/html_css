@@ -1,0 +1,22 @@
+Steps to position elements:
+    1. Devide the elements into containers
+    2. Display the container as flex
+            display:flex;
+    3. Use "justify-content" to move left-right
+    4. Use "align-items" to move up-down
+
+    5. "justify-content" and "align-items"
+
+            flex-start
+            center
+            flex-end
+            space-between 
+
+When you say "display:flex"
+
+    flex-direction:row
+    align-items: strech
+    
+Carefull!!
+    When you change the flex-direction:column 
+        the "justify-content" will switch the job with "align-items"

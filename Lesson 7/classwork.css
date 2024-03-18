@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+}
+.main-area {
+  border: 2px solid red;
+  display: flex;
+}
+
+.main-img {
+  border: 10px solid green;
+  width: 60%;
+}
+
+img {
+  width: 100%;
+}

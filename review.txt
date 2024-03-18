@@ -1,0 +1,65 @@
+HTML builds the structure of the Document
+CSS styles the Document
+
+HTML is the language of tags
+Some HTML tags:
+                    <html></html> , <head> </head>, <body> </body>
+                    <h1></h1>,  <p></p>, <ol></ol>, <ul> </ul>, <img>, <span> </span>, <a></a>
+                    <div></div>
+
+CSS is used to style the Document
+
+Before Styling:
+                    Seperate the template into containers
+
+Styling an element:
+                    1) Connect HTML with CSS
+                    2) Select the element/s that we want to style
+                        a) selection by class                           .btn
+                        b) selection by tag`s name                      h1
+                    3) Include the styles that you need
+
+Including styles:
+                    1) width
+                        block elements  -> take all the space of the row            [h1, div]
+                        inline elements -> take only as much space as they need     [a, span]
+                    2) position
+                        a. display the parent container as flex (remember to put everything into a container)
+                        b. use justify-content to move the elements left<->right
+                        c. use align-items to move the elements up<->down
+                        d. use flex-direction to align the items into a column
+                    3) spacing
+                        a. use padding to put space inside the borders of the element
+                        b. use margin to put space outside the borders of the element
+                    ________________________________________________________________________________
+
+                    4) text Styling
+                        a. font-size                to change the size of text
+                                1rem = 16px
+                        b. text-decoration          to remove the underline at <a> tags
+                        c. color                    to change the color of the text
+                        d. text-align               to start typing from the center
+                        e. font-weight              to make the text bolder
+                        f. font-family              to change the look of the text
+                                * serif(edges)          -> used for classic, serious look
+                                * sans-serif(no-edges)  -> used for casual, sportive look
+                    4.1) Adding a new font-family
+                        a. download the font from fonts.google.com
+                        b. move the font folder inside the project`s folder
+                        c. unzip the font`s folder
+                        d. use : @font-face {
+                                    font-family: font-name;
+                                    src: url("font-location");
+                                }
+                        e. use the name that you gave to the font 
+                            font-family: poppins;
+
+                    5) borders
+                        a. border: 2px solid red    to put a red border around the element
+                        b. border-radius            to make the corners of the border rounded
+
+                    6) colors
+                        a. by name              color: red;
+                        b. by rgb()             color: rgb(255,0,255);
+                        c. by code              color: #1f3c45
+                        

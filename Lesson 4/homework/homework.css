@@ -1,0 +1,68 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+  padding: 20px;
+}
+
+.nav-link {
+  margin-left: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background: url("./bg20.png");
+  background-size: cover;
+}
+
+.brand {
+  margin-left: 150px;
+  margin-right: 150px;
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.first {
+  margin-left: 380px;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 70px;
+  width: 60%;
+  margin: auto;
+  margin-top: 200px;
+  color: white;
+}
+
+.text-purple {
+  color: rgb(160, 3, 160);
+}
+
+.main-content {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.active-btn {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 790px;
+  color: black;
+  padding: 15px 30px;
+  border: 0;
+  background-color: rgb(231, 231, 231);
+}

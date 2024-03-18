@@ -1,0 +1,3 @@
+1. make the text of main-title bigger
+2. make the text of the p bigger
+3. put some space on top of the p to seperate it from the title

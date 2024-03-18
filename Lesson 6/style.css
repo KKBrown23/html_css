@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./bg20.png");
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.nav-link {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.brand {
+  color: white;
+  font-size: 35px;
+}
+
+.main-area {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.purple {
+  color: purple;
+}
+
+.main-title {
+  color: white;
+  font-size: 75px;
+  width: 40%;
+  text-align: center;
+}
+
+button {
+  color: black;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+  width: 40%;
+  margin-top: 40px;
+  text-align: center;
+}

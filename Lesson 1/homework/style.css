@@ -1,0 +1,15 @@
+h1 {
+  background-color: lightcyan;
+  text-align: center;
+}
+
+h2 {
+  background-color: lightcoral;
+}
+.testing {
+  background-color: lightgreen;
+}
+
+.odd {
+  background-color: lightgray;
+}

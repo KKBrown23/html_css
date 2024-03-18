@@ -1,0 +1,13 @@
+.odd {
+  background-color: lightblue;
+}
+
+.even {
+  background-color: lightgreen;
+}
+
+h1 {
+  background-color: lightcoral;
+  text-align: centers;
+  font-family: "Courier New", Courier, monospace;
+}
